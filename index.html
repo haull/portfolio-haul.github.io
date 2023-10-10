@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width" initial-scale="1.0">
+        <title>Haul's Porto</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/dde696635c.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu"> 
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#certificate">Certificates</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Bachelor of Computer Science</p>
+                <h1>Hi, I'm <span>Mya Hauliyah </span> <br> From Bandung, ID</h1>
+            </div>
+        </div>
+    </div>   
+    <!--about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                <img src="images/me.JPG">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a Bachelor of Computer Science with a strong passion for data science. My educational background has provided me with 
+                        a solid foundation in programming, software development, and problem-solving. What truly excites me, however, is the world 
+                        of data science. I am deeply passionate about harnessing the power of data to derive insights, to make informed decisions, 
+                        and drive innovation. With my computer science skills and a keen interest in data science, I am well-prepared to contribute
+                         to projects and organizations that involve data analysis, machine learning, and artificial intelligence.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experiences</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('achievements')">Achievements</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Language</span><br>Python, SQL, Java, PHP, Html, Css, javascript</li>
+                            <li><span>Tools</span><br>Jupyter Notebook, Orange, RapidMiner, Figma, Microsoft Office (Word, Excel, Power Point), Blender,
+                                Tableu</li>
+                            <li><span>Other Skills</span><br>Team Works, Public Speaking, Problem Solving</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021-Current</span><br>Teacher Assistant at Binus Center Bandung</li>
+                            <li><span>2021-2023</span><br>Data Scientist at Unikom Codelabs</li>
+                            <li><span>2022-2023</span><br>Deputy chairman of the Ministry of Publication and Documentation at Unikom Codelabs</li>
+                            <li><span>Sep-Dec 2022</span><br>Working at the Garut district ministry of agriculture to build a food planting management website.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019-2023</span><br>Informatics engineering student at Indonesian Computer University</li>
+                            <li><span>2022</span><br>Big Data using Python Class at Fresh Graduate Academy</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="achievements">
+                        <ul>
+                            <li><span>2021</span><br>Merit Awards – APICTA Malaysia</li>
+                            <li><span>2022</span><br>Finalist – Innoserve</li>
+                            <li><span>2022</span><br>Participants in Shopee Code League Qualification Round</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-magnifying-glass-chart"></i>
+                    <h2>Data Science</h2>
+                    <p>Throughout my college journey, I actively engaged in academic projects involving data analysis and statistical processing. I learned to use tools like Python to manipulate data and derive valuable insights. Additionally, I was involved in the campus data science community, where I participated in workshops, seminars, and collaborative projects that involved data analysis.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-chart-column"></i>
+                    <h2>Data analysis</h2>
+                    <p>During my time in college, I actively pursued coursework and projects related to data analysis. I honed my skills in data collection, cleaning, and visualization, and I became proficient in using analytical tools and programming languages such as Python, Tableau, and SQL. </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <h2>Business analysis</h2>
+                    <p>Throughout my college years, I actively pursued coursework and projects related to business analysis, where I learned to identify business needs, analyze processes, and propose solutions to enhance organizational efficiency. I became skilled in creating UML diagrams such as use case diagrams, class diagrams, and sequence diagrams to visualize and communicate complex systems and processes effectively.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--Portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <a href="https://www.figma.com/proto/bu5swJBcWp4VgJgPajw31D/MVH-2022?node-id=228-440&starting-point-node-id=95%3A7&mode=design&t=RwzOYDJAtXA3ZK6G-1
+                        "><img src="images/work1.png"></a>
+                    <div class="layer">
+                        <h3>Food Recommender by Photo</h3>
+                        <p>A smart application that provide you the recipe recommendations based on pictures.</p>
+                        <h5>Related: data science, autoML, android</h5>
+                    </div>
+                </div>
+                <div class="work">
+                    <a href="https://www.figma.com/proto/ib0LL50oXJ7wUTOBd03QFn/MeowDate?type=design&node-id=7-4&t=nqTIvEpYpKxaF9gY-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=7%3A4&mode=design
+                    "><img src="images/work2.png"></a>
+                    <div class="layer">
+                        <h3>Meow Date</h3>
+                        <p>A site that can help cat owners find mating partners for their cats.</p>
+                        <h5>Related: html, css, javascript, php</h5>
+                    </div>
+                </div>
+                <div class="work">
+                    <a href="https://github.com/haull/Segmentasi"><img src="images/work4.png"></a>
+                    <div class="layer">
+                        <h3>Consumer Segmentation</h3>
+                        <p>A sites that can segment consumers to see their level of loyalty based on sales transaction data.</p>
+                        <h5>Related: data science, ML, python, flask</h5>
+                    </div>
+                </div>
+                <div class="work">
+                    <a href="https://github.com/haull/TubesAKB_MovieTicket"><img src="images/work3.png"></a>
+                    <div class="layer">
+                        <h3>Movie Ticket</h3>
+                        <p>An android application that is useful for purchasing cinema film tickets.</p>
+                        <h5>Related: android, java</h5>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!--certificate-->
+    <div id="certificate">
+        <div class="container">
+            <h1 class="sub-title">My Certificates</h1>
+            <div class="certificate-list">
+                <div class="certificate">
+                    <img src="images/c1.png">
+                </div>
+                <div class="certificate">
+                    <img src="images/c2.png">
+                </div>
+                <div class="certificate">
+                    <img src="images/c3.png">
+                </div>
+                <div class="certificate">
+                    <img src="images/c4.png">
+                </div>
+                <div class="certificate">
+                    <img src="images/c5.png">
+                </div>
+                <div class="certificate">
+                    <img src="images/c6.png">
+                </div>
+                <div class="certificate">
+                    <img src="images/c7.png">
+                </div>
+                <div class="certificate">
+                    <img src="images/c8.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> mhauliyahh@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 082219887214</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/mya-hauliyah-14146b200/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/haull"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/haull__/"><i class="fa-brands fa-square-instagram"></i></a>
+                    </div>
+                    <a href="/images/MYA HAULIYAH_CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                   <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Messages"></textarea>
+                    <button type="submit" class="btn btn2">Send</button>
+                   </form> 
+                   <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy Haul.</p>
+        </div>
+    </div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-links");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-links");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzke3nWua5gr46P69g8AgzNhWgUBk2rH5OlX-aTWTTO405oFuPVG0TY_wuM4NQoH_Fy/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+    
+        form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message Sent successfully"
+                setTimeout(() => {
+                    msg.innerHTML = ""
+                }, 5000);
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+    })
+    </script>
+    </body>
+</html>
